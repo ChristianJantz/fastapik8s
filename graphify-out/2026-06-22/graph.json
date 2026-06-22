@@ -1,0 +1,284 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "app/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_init",
+      "community": 3,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_main",
+      "community": 0,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "ItemTypeEnum",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "app_main_itemtypeenum",
+      "community": 0,
+      "norm_label": "itemtypeenum"
+    },
+    {
+      "label": "Enum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "enum",
+      "community": 0,
+      "norm_label": "enum"
+    },
+    {
+      "label": "ItemModel",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "app_main_itemmodel",
+      "community": 2,
+      "norm_label": "itemmodel"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "basemodel",
+      "community": 2,
+      "norm_label": "basemodel"
+    },
+    {
+      "label": "ResponseItem",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "app_main_responseitem",
+      "community": 2,
+      "norm_label": "responseitem"
+    },
+    {
+      "label": "root()",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "app_main_root",
+      "community": 0,
+      "norm_label": "root()"
+    },
+    {
+      "label": "get_items()",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "app_main_get_items",
+      "community": 0,
+      "norm_label": "get_items()"
+    },
+    {
+      "label": "fastapik8s README",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_fastapik8s",
+      "community": 1,
+      "norm_label": "fastapik8s readme"
+    },
+    {
+      "label": "FastAPI (standard) 0.113.0",
+      "file_type": "concept",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirements_fastapi",
+      "community": 1,
+      "norm_label": "fastapi (standard) 0.113.0"
+    },
+    {
+      "label": "Pydantic 2.8.0",
+      "file_type": "concept",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirements_pydantic",
+      "community": 1,
+      "norm_label": "pydantic 2.8.0"
+    },
+    {
+      "label": "requirements.txt",
+      "file_type": "document",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requirements_txt",
+      "community": 1,
+      "norm_label": "requirements.txt"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_main_get_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_main_itemmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_main_itemtypeenum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_main_responseitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_main_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_main_itemtypeenum",
+      "target": "enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "app_main_itemmodel",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "app_main_responseitem",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 0.7,
+      "source": "readme_fastapik8s",
+      "target": "requirements_txt"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "requirements_fastapi",
+      "target": "requirements_pydantic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "requirements_fastapi"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "requirements_pydantic"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "db012053052061298c370baa1194f9d97837ff7a"
+}

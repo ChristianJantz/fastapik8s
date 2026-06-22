@@ -1,0 +1,68 @@
+{
+  "communities": {
+    "0": [
+      "app_main",
+      "app_main_get_items",
+      "app_main_itemtypeenum",
+      "app_main_root",
+      "enum"
+    ],
+    "1": [
+      "readme_fastapik8s",
+      "requirements_fastapi",
+      "requirements_pydantic",
+      "requirements_txt"
+    ],
+    "2": [
+      "app_main_itemmodel",
+      "app_main_responseitem",
+      "basemodel"
+    ],
+    "3": [
+      "app_init"
+    ]
+  },
+  "cohesion": {
+    "0": 0.5,
+    "1": 0.6666666666666666,
+    "2": 0.6666666666666666,
+    "3": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_main_itemtypeenum",
+      "label": "ItemTypeEnum",
+      "degree": 2
+    },
+    {
+      "id": "app_main_itemmodel",
+      "label": "ItemModel",
+      "degree": 2
+    },
+    {
+      "id": "app_main_responseitem",
+      "label": "ResponseItem",
+      "degree": 2
+    },
+    {
+      "id": "requirements_fastapi",
+      "label": "FastAPI (standard) 0.113.0",
+      "degree": 2
+    },
+    {
+      "id": "requirements_pydantic",
+      "label": "Pydantic 2.8.0",
+      "degree": 2
+    },
+    {
+      "id": "readme_fastapik8s",
+      "label": "fastapik8s README",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 741,
+    "output": 486
+  }
+}

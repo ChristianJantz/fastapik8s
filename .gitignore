@@ -1,3 +1,8 @@
 .venv/
 __pychache__/
 *.temp
+
+# graphify
+graphify-out/obsidian/
+graphify-out/graph.html
+graphify-out/cache/
